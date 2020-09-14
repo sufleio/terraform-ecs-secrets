@@ -1,4 +1,4 @@
-Terraform ECS Secrets
+# Terraform ECS Secrets
 
 Store secrets on Parameter Store vs AWS Secrets Manager and inject them into Amazon ECS tasks using Terraform.
 

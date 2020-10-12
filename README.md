@@ -4,4 +4,4 @@ Store secrets on Parameter Store vs AWS Secrets Manager and inject them into Ama
 
 Check full blog post from:
 
-https://www.sufle.io/blog/keeping-secrets-secret-on-ecs-using-terraform
+https://www.sufle.io/blog/keeping-secrets-as-secret-on-amazon-ecs-using-terraform

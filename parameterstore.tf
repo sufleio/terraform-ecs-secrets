@@ -28,7 +28,7 @@ resource "aws_iam_role_policy" "password_policy_parameterstore" {
 }
 
 data "template_file" "task_template_parameterstore" {
-  template = "${file("./templates/task.json.tpl")}"
+  template = file("./templates/task.json.tpl")
 
   vars = {
     app_cpu           = var.cpu

@@ -1,7 +1,7 @@
 # AWS provider
 provider "aws" {
-  region  = "eu-west-1"
-  version = "~> 2.68"
+  profile = "default"
+  region = "eu-west-1"
 }
 
 # Template provider
